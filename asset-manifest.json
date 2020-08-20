@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/track-your-day/static/css/main.595a3bd5.chunk.css",
-    "main.js": "/track-your-day/static/js/main.4a703292.chunk.js",
-    "main.js.map": "/track-your-day/static/js/main.4a703292.chunk.js.map",
+    "main.js": "/track-your-day/static/js/main.cbe93a49.chunk.js",
+    "main.js.map": "/track-your-day/static/js/main.cbe93a49.chunk.js.map",
     "runtime-main.js": "/track-your-day/static/js/runtime-main.ed9a6432.js",
     "runtime-main.js.map": "/track-your-day/static/js/runtime-main.ed9a6432.js.map",
     "static/js/2.3f461030.chunk.js": "/track-your-day/static/js/2.3f461030.chunk.js",
     "static/js/2.3f461030.chunk.js.map": "/track-your-day/static/js/2.3f461030.chunk.js.map",
     "index.html": "/track-your-day/index.html",
-    "precache-manifest.8a6a07749f05ca5d1050d521ab1e1fc5.js": "/track-your-day/precache-manifest.8a6a07749f05ca5d1050d521ab1e1fc5.js",
+    "precache-manifest.3d2fa4f103614c14678c9f9af76ed624.js": "/track-your-day/precache-manifest.3d2fa4f103614c14678c9f9af76ed624.js",
     "service-worker.js": "/track-your-day/service-worker.js",
     "static/css/main.595a3bd5.chunk.css.map": "/track-your-day/static/css/main.595a3bd5.chunk.css.map",
     "static/js/2.3f461030.chunk.js.LICENSE.txt": "/track-your-day/static/js/2.3f461030.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ed9a6432.js",
     "static/js/2.3f461030.chunk.js",
     "static/css/main.595a3bd5.chunk.css",
-    "static/js/main.4a703292.chunk.js"
+    "static/js/main.cbe93a49.chunk.js"
   ]
 }
