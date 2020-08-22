@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import isHerokuSleeping from 'react-use-heroku';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LoginScreen from './pages/LoginScreen/LoginScreen';
 import Home from "./pages/Home/Home";
@@ -9,7 +10,11 @@ import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 import Grow from '@material-ui/core/Grow';
 import ResponsiveDrawer from './components/ResponsiveDrawer/ResponsiveDrawer';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
+
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 const BASE_URL = "https://track-your-day.herokuapp.com";
 
@@ -24,6 +29,15 @@ const useStyles = makeStyles((theme) => ({
       bottom: 80,
     },
   },
+  herokuSleeping: {
+    textAlign: 'center',
+    color: '#eee',
+    height: '100vh',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column',
+  }
 }));
 
 const GrowTransition = (props) => {
@@ -49,14 +63,6 @@ function App() {
 
   useEffect(() => {
     if(!mounted){
-      //to wake up heroku's app
-      fetch(`${BASE_URL}/`, {
-        method: "get"
-      })
-      .then(r=>r.text())
-      .then(console.log)
-      .catch(console.log);
-      
       const remember = localStorage.getItem('remember') === 'true';
       if(remember){
         const name = localStorage.getItem('name'); 
@@ -98,6 +104,18 @@ function App() {
   const onLogout = () => {
     localStorage.setItem('remember', 'false');
     setLogin(false);
+  }
+ 
+  if(isHerokuSleeping({url: `${BASE_URL}/`})){
+    return (
+      <Container className={classes.herokuSleeping} maxWidth={"sm"}>
+        <Typography style={{fontSize: '1.5rem', marginBottom: '1rem'}}>
+          Heroku is sleeping, hang tight!
+        </Typography>
+        <CircularProgress />
+      </Container>
+      
+    )
   }
 
   return (
