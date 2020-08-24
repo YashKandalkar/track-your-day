@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/track-your-day/precache-manifest.b3fde5fcf7388d421cb5b863d46c9271.js"
+  "/track-your-day/precache-manifest.ff54e87371d0cee2417ae5404cc46de4.js"
 );
 
 self.addEventListener('message', (event) => {
