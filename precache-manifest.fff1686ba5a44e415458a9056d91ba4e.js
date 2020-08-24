@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7853217f07e86f3dd19df16fd6889bae",
+    "revision": "905cc6171614ec0b154ca7167722667a",
     "url": "/track-your-day/index.html"
   },
   {
-    "revision": "ad425822f8434c4fec2f",
+    "revision": "bb5b4053c928eb53af4e",
     "url": "/track-your-day/static/css/main.595a3bd5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/track-your-day/static/js/2.5490d639.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad425822f8434c4fec2f",
-    "url": "/track-your-day/static/js/main.65be0de2.chunk.js"
+    "revision": "bb5b4053c928eb53af4e",
+    "url": "/track-your-day/static/js/main.2a0f0c52.chunk.js"
   },
   {
     "revision": "a7cc3cfa51cbe0a37516",
