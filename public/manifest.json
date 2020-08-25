@@ -2,6 +2,32 @@
   "short_name": "TYD",
   "name": "Track Your Day",
   "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src":"/track-your-day/android-chrome-192x192.png",
+      "sizes":"192x192",
+      "type":"image/png"
+    },
+    {
+      "src":"/track-your-day/android-chrome-512x512.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    },
+    {
+      "src":"/track-your-day/maskable_icon.png",
+      "sizes":"1000x1000",
+      "type":"image/png",
+      "purpose": "maskable"
+    }
   ],
   "start_url": "https://yashkandalkar.github.io/track-your-day/",
   "display": "standalone",
