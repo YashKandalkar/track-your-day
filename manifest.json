@@ -21,6 +21,12 @@
       "src":"/track-your-day/android-chrome-512x512.png",
       "sizes":"512x512",
       "type":"image/png"
+    },
+    {
+      "src":"/track-your-day/maskable_icon.png",
+      "sizes":"1000x1000",
+      "type":"image/png",
+      "purpose": "maskable"
     }
   ],
   "start_url": "https://yashkandalkar.github.io/track-your-day/",
