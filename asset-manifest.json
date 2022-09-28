@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/track-your-day/static/css/main.595a3bd5.chunk.css",
-    "main.js": "/track-your-day/static/js/main.2a0f0c52.chunk.js",
-    "main.js.map": "/track-your-day/static/js/main.2a0f0c52.chunk.js.map",
-    "runtime-main.js": "/track-your-day/static/js/runtime-main.ed9a6432.js",
-    "runtime-main.js.map": "/track-your-day/static/js/runtime-main.ed9a6432.js.map",
-    "static/js/2.5490d639.chunk.js": "/track-your-day/static/js/2.5490d639.chunk.js",
-    "static/js/2.5490d639.chunk.js.map": "/track-your-day/static/js/2.5490d639.chunk.js.map",
+    "main.js": "/track-your-day/static/js/main.21726772.chunk.js",
+    "main.js.map": "/track-your-day/static/js/main.21726772.chunk.js.map",
+    "runtime-main.js": "/track-your-day/static/js/runtime-main.7719e108.js",
+    "runtime-main.js.map": "/track-your-day/static/js/runtime-main.7719e108.js.map",
+    "static/js/2.0e69ac0f.chunk.js": "/track-your-day/static/js/2.0e69ac0f.chunk.js",
+    "static/js/2.0e69ac0f.chunk.js.map": "/track-your-day/static/js/2.0e69ac0f.chunk.js.map",
     "index.html": "/track-your-day/index.html",
-    "precache-manifest.59f475f5713b8eb3323c58e64176071e.js": "/track-your-day/precache-manifest.59f475f5713b8eb3323c58e64176071e.js",
+    "precache-manifest.b6e777786d4e9284232114b2ea928345.js": "/track-your-day/precache-manifest.b6e777786d4e9284232114b2ea928345.js",
     "service-worker.js": "/track-your-day/service-worker.js",
     "static/css/main.595a3bd5.chunk.css.map": "/track-your-day/static/css/main.595a3bd5.chunk.css.map",
-    "static/js/2.5490d639.chunk.js.LICENSE.txt": "/track-your-day/static/js/2.5490d639.chunk.js.LICENSE.txt"
+    "static/js/2.0e69ac0f.chunk.js.LICENSE.txt": "/track-your-day/static/js/2.0e69ac0f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed9a6432.js",
-    "static/js/2.5490d639.chunk.js",
+    "static/js/runtime-main.7719e108.js",
+    "static/js/2.0e69ac0f.chunk.js",
     "static/css/main.595a3bd5.chunk.css",
-    "static/js/main.2a0f0c52.chunk.js"
+    "static/js/main.21726772.chunk.js"
   ]
 }
