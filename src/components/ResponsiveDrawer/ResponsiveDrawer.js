@@ -127,20 +127,6 @@ function ResponsiveDrawer(props) {
             <ListItemText primary={"History"} />
           </ListItem>
       </List>
-      <Divider />
-      <List className={classes.list}>
-        <ListItem 
-          selected={path==='/analyze'}
-          component={Link} 
-          to='/analyze'
-          onClick={handleDrawerToggle}
-        >
-          <ListItemIcon>
-            <AssessmentOutlinedIcon className={classes.icon}/>
-          </ListItemIcon>
-          <ListItemText primary={"Analyze"} />
-        </ListItem>
-      </List>
     </div>
   );
 
